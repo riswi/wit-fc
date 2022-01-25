@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(83, 98, 116);
+    /*background:linear-gradient(to left,rgba(73, 64, 64, 0.247),white)*/
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    background-color:rgb(94, 85, 85);
+    color: white;
+}
+.logo img{
+    height:100px;
+}
+.logo h3{
+    color: lavender;
+    font-family: 'Dongle', sans-serif;
+}
+.logo span{
+    color: lavenderblush;
+}
+.nav-links a{
+    color: rgb(26, 18, 18);
+}
+.menu{
+    display: flex;
+    gap: 0.75em;
+    font-size: 30px;
+    font-family: 'Dongle', sans-serif;
+}
+.menu li:hover{
+    background-color: lightslategray;
+    border-radius: 5px;
+    transition: 0.5s ease-in;
+}
+menu li{
+    padding: 5px 4px 0 0;
+}
+.input{
+    border-radius: 2px;
+    font-size: 25px;
+    font-family: 'Dongle', sans-serif;
+    /*background-color: lightsteelblue;*/
+    width: 50%;
+    /*transform: translate(50%,50%);*/
+    margin: 100px 0 0 150px;
+    padding: 20px 40px;
+}
+input[type=text],select{
+    width: 30%;
+    padding: 12px 24px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 2px solid rgb(32, 55, 104);
+    border-radius: 10px;
+}
+input[type=email],select{
+    width: 30%;
+    padding: 12px 24px;
+    margin: 8px 8px;
+    display: inline-block;
+    border: 2px solid rgb(32, 55, 104);
+    border-radius: 10px;
+}
+input[type=radio],select{
+    padding: 12px 20px;
+    margin: 8px 16px;
+    display: inline-block;
+}
+button{
+    width: 30%;
+    background-color: rgb(48, 49, 109);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    position: fixed;
+    left: 05;
+    bottom: 0%;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+
+
+}
